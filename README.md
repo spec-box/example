@@ -1,11 +1,13 @@
 ### sync how to
 
-1. Установите пакет @spec-box/sync из внешнего npm
+1. Установите пакет @spec-box/sync из npm
 ```sh
-npm i @spec-box/sync@0.0.2-beta.19 --registry=https://registry.npmjs.org -D
+npm i @spec-box/sync --registry=https://registry.npmjs.org -D
 ```
 
-1. Запустить экспорт данных (пример в /specs)
+1. Укажите в конфигурационном файле `.tms.json` нужные хост и id проекта.
+
+1. Запустите экспорт данных (пример в /specs)
 ```sh
 npx spec-box sync
 ```
